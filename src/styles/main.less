@@ -1,0 +1,65 @@
+@corDaFonte: white;
+@corDoBotao: green;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Young Serif', serif;
+}
+
+header {
+    background-color: black;
+    padding: 16px 0;
+    color: @corDaFonte;
+    display: flex;
+    border-bottom: 5px solid blue ;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header button {
+    margin-left: 16px;
+    background-color: @corDoBotao;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+form {
+    background-color: white;
+    padding: 24px 0;
+    text-align: center;
+    display:none;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input, button {
+    padding: 6px;
+}
+
+button {
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white ;
+}
+
+#botao-cancelar {
+    background-color: red;
+    border:none;
+}
+
+form ul,li {
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
